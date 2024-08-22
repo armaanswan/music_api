@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Music API</title>
+</head>
+
+<body>
+    <div class="formContainer">
+        <h1>Upload Song</h1>
+        <form id="uploadSongForm" class="form">
+            <label for="title">Title</label>
+            <input type="text" id="title" name="title" placeholder="Title" required>
+
+            <label for="album_title">Album Title</label>
+            <input type="text" id="album_title" name="album_title" placeholder="Album Title" required>
+
+            <label for="release_date">Release Date</label>
+            <input type="datetime" id="release_date" name="release_date" placeholder="Release Date" required>
+
+            <label for="year">Year</label>
+            <input type="number" id="year" name="year" min="2000" placeholder="Year" required>
+
+            <label for="track_number">Track Number</label>
+            <input type="number" id="track_number" name="track_number" min="1" placeholder="Track Number" required>
+
+            <label for="disk_number">Disk Number</label>
+            <input type="number" id="disk_number" name="disk_number" min="1" placeholder="Disk Number" required>
+
+            <label for="isrc">ISRC</label>
+            <input type="text" id="isrc" name="isrc" placeholder="ISRC" required>
+
+            <label for="duration">Duration</label>
+            <input type="number" id="duration" name="duration" min="0" placeholder="Duration" required>
+
+            <label for="genre">Genre</label>
+            <input type="text" id="genre" name="genre" placeholder="Genre" required>
+
+            <label for="label">Label</label>
+            <input type="text" id="label" name="label" placeholder="Label" required>
+
+            <label for="language">Language IRA Code</label>
+            <input type="text" id="language" name="language" placeholder="Language IRA Code" required>
+
+            <div class="check-box">
+                <input type="checkbox" id="single" name="single">
+                <label for="single">Single Track</label>
+            </div>
+
+            <div class="check-box">
+                <input type="checkbox" id="explicit" name="explicit">
+                <label for="explicit">Explicit</label>
+            </div>
+
+            <label for="youtube_url">Youtube URL</label>
+            <input type="text" id="youtube_url" name="youtube_url" placeholder="YouTube URL" required>
+
+            <label for="youtube_music_url">Youtube Music URL</label>
+            <input type="text" id="youtube_music_url" name="youtube_music_url" placeholder="YouTube Music URL" required>
+
+            <label for="spotify_url">Spotify URL</label>
+            <input type="text" id="spotify_url" name="spotify_url" placeholder="Spotify URL" required>
+
+            <label for="apple_music_url">Apple Music URL</label>
+            <input type="text" id="apple_music_url" name="apple_music_url" placeholder="Apple Music URL" required>
+
+            <label for="shazam_url">Shazam URL</label>
+            <input type="text" id="shazam_url" name="shazam_url" placeholder="Shazam URL">
+
+            <label for="soundcloud_url">Soundcloud URL</label>
+            <input type="text" id="soundcloud_url" name="soundcloud_url" placeholder="Soundcloud URL">
+
+            <label for="amazon_music_url">Amazon Music URL</label>
+            <input type="text" id="amazon_music_url" name="amazon_music_url" placeholder="Amazon Music URL">
+
+            <button type="submit">Upload Song</button>
+        </form>
+
+        <div id="response"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

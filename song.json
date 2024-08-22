@@ -1,0 +1,52 @@
+{
+    "ISRC": "DGA072235207",
+    "album": {
+        "title": "A for Arjan"
+    },
+    "disk_number": 1,
+    "duration": 278,
+    "explicit": false,
+    "genre": "Punjabi Romance",
+    "label": "Brown Studios",
+    "language": "pa",
+    "release_date": {
+        "_nanoseconds": 912000000,
+        "_seconds": 1669363200
+    },
+    "sections": [
+        {
+            "lyrics": [
+                {
+                    "background_vocals": false,
+                    "text": "ਕੁੜੀ ਹੱਸਦੀਆਂ ਅੱਖਾਂ ਵਾਲ਼ੀ ਸੀ",
+                    "time": {
+                        "end": 0,
+                        "start": 0
+                    }
+                },
+                {
+                    "background_vocals": false,
+                    "text": "ਉਹਦੀ ਤੋਰ ਪੈਰਾਂ ਤੋਂ ਕਾਹਲ਼ੀ ਸੀ",
+                    "time": {
+                        "end": 0,
+                        "start": 0
+                    }
+                }
+            ],
+            "type": "verse"
+        }
+    ],
+    "single": false,
+    "title": "Reshmi Rumal",
+    "track_number": 9,
+    "year": 2022,
+    "socials": {
+        "youtube": "https://www.youtube.com/watch?v=aWzkOgo_pq4",
+        "spotify": "https://open.spotify.com/track/3hfP5vbZeGOKcczj7gg8La?si=6a4ae5e1a38e4616",
+        "apple_music": "https://music.apple.com/ca/album/reshmi-rumal-feat-arsh-heer/1656305187?i=1656305205",
+        "youtube_music": "https://music.youtube.com/watch?v=Ywbz4YM59XY&si=cvbDv_0hqoMjhpAV",
+        "amazon_music": "https://amazon.ca/music/player/tracks/B0BN83GFHQ",
+        "shazam": "https://www.shazam.com/track/643261737/reshmi-rumal-feat-arsh-heer",
+        "soundcloud": "https://soundcloud.com/arjandhillon-music/reshmi-rumal-feat-arsh-heer"
+    }
+}

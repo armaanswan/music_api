@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.formContainer>h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    gap: 0.5rem;
+}
+
+.form label {
+    color: #b8b8b8;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    font-family: monospace;
+    margin-top: 2rem;
+}
+
+.form input {
+    font-family: monospace;
+    width: 100%;
+    border: 0;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    background-color: #ffffff;
+    border-bottom: 4px solid #b8b8b8;
+}
+
+.form input::placeholder {
+    color: #888888;
+}
+
+.form input:focus {
+    border-bottom: 4px solid #8d8d8d;
+    outline: none;
+}
+
+.form .check-box label {
+    display: inline;
+    font-size: 1.5rem;
+    text-wrap: nowrap;
+}
+
+.form .check-box input {
+    display: inline;
+}
+
+.form button {
+    margin-top: 3rem;
+    word-spacing: 0.5rem;
+    text-transform: uppercase;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border: 0;
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: monospace;
+}
